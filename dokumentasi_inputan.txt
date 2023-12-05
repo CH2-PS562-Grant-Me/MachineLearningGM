@@ -13,5 +13,15 @@ untuk indeks ke-8 = lama kepanitiaan #13
 
 semua data diinput dalam bentuk integer atau float
 
+HASIL PERHITUNGAN MODEL DALAM BENTUK ARRAY 
+
+cluster[0] = tag pemerintah
+cluster[1] = tag swasta
+cluster[2] = tag organisasi
+cluster[3] = tag prestasi
+cluster[4] = tag bantuan
+
+jadi nanti hasil rekomendasi ditampilkan berdasarkan array indeks ke-n seperti diatas
+
 
 
