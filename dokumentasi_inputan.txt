@@ -1,0 +1,17 @@
+inputan data user diinput dalam bentuk nilai array
+inputan_user = [3.8, 5, 3, 2, 1, 1, 1, 14, 13]
+
+untuk indeks ke-0 = nilai IPK #3.8
+untuk indeks ke-1 = jumlah sertifikasi #5
+untuk indeks ke-2 = jumlah sertifikasi profesional #3
+untuk indeks ke-3 = jumlah prestasi nasional #2
+untuk indeks ke-4 = jumlah lomba top 3 nasional #1
+untuk indeks ke-5 = jumlah prestasi nasional #1
+untuk indeks ke-6 = jumlah lomba top 3 internasional #1
+untuk indeks ke-7 = lama intern/magang #14
+untuk indeks ke-8 = lama kepanitiaan #13
+
+semua data diinput dalam bentuk integer atau float
+
+
+
