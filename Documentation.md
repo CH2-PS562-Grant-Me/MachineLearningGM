@@ -27,4 +27,15 @@ API di buat dengan menggunakan framework Flask dan metode POST. Bisa di test di 
 > :warning: **Model Path**: wajib diganti mengikuti path yang kalian gunakan
 
 ## contoh_input.txt
-Contoh input berupa .json array yang dipakai untuk test API model
+Contoh input berupa .json array dengan value dtype float yang dipakai untuk test API model. Contoh:
+> {
+>  "IPK": 3.83,
+>  "Sertifikasi": 0,
+>  "Sertifikasi Professional": 0,
+>  "Prestasi Nasional": 2,
+>  "Kompetisi Top 3 Nasional": 3,
+>  "Prestasi Internasional": 0,
+>  "Kompetisi Top 3 Internasional": 0,
+>  "Intern": 3,
+>  "Volunteer": 14
+> }
