@@ -1,0 +1,11 @@
+{
+  "IPK": 3.83,
+  "Sertifikasi": 0,
+  "Sertifikasi Professional": 0,
+  "Prestasi Nasional": 2,
+  "Kompetisi Top 3 Nasional": 3,
+  "Prestasi Internasional": 0,
+  "Kompetisi Top 3 Internasional": 0,
+  "Intern": 3,
+  "Volunteer": 14
+}
