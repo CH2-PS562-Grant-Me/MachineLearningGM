@@ -33,8 +33,6 @@ def predict():
         max_index = np.argmax(prediction)
         max_value = prediction[0, max_index].item()
 
-        # Format hasil prediksi ke dalam JSON
-        output = {'prediction': prediction.tolist(), 'max_value': max_value}
 
         # Menentukan cluster berdasarkan max_value
         clusters = ["Pemerintah", "Swasta", "Organisasi", "Prestasi", "Bantuan"]
@@ -45,7 +43,7 @@ def predict():
                 'statusCode': 200,
                 'message': 'Success Predicting',
                 'Persentase Akurasi': max_value,
-                'Tag Beasiswa': cluster,
+                'Tag Beasiswa': cluster
             }), 200
         else:
             return jsonify({
