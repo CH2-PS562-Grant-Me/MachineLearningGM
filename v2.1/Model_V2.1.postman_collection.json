@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "c7eb9190-a3c8-4764-a4db-e5b41778a86e",
+		"name": "Model_V2.1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31675884"
+	},
+	"item": [
+		{
+			"name": "example_request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"IPK\": 3.83,\r\n  \"Sertifikasi\": 0,\r\n  \"Sertifikasi Professional\": 0,\r\n  \"Prestasi Nasional\": 2,\r\n  \"Kompetisi Top 3 Nasional\": 3,\r\n  \"Prestasi Internasional\": 0,\r\n  \"Kompetisi Top 3 Internasional\": 0,\r\n  \"Intern\": 3,\r\n  \"Volunteer\": 14\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/predict",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
