@@ -4,8 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
-import matplotlib as plt
-import pathlib
+
 
 # Read the data from the CSV file or use an existing dataframe
 data = pd.read_csv('Dataset_Final.csv')
