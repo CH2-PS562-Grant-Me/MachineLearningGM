@@ -126,7 +126,6 @@ elif predicted_cluster == 4:
 Swasta*
 
 ## License
-Copyright © 2023 Bangkit Academy. All rights reserved.
 Copyright © 2023 Pakintaki Group . All rights reserved.
 
 
