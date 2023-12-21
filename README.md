@@ -16,7 +16,6 @@ By using this Machine Learning model, it is hoped that it can provide scholarshi
   - [Model Training](#model-training)
   - [Model Evaluation](#model-evaluation)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Getting Started
@@ -126,6 +125,9 @@ elif predicted_cluster == 4:
 *Inputan masuk ke cluster: [1]
 Swasta*
 
-## Contributing
+## License
+Copyright © 2023 Bangkit Academy. All rights reserved.
+Copyright © 2023 Pakintaki Group . All rights reserved.
+
 
 
