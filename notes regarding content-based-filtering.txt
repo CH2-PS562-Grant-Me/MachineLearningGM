@@ -1,0 +1,24 @@
+We initially planned to use content-based filtering, but we failed to develop the code.
+
+For dataset, initially we use scholarship_features (scholarship's profile, consists of 13 rows and five features) and user_feature (user's profile, consist of 12000 rows and four features).
+
+Because we keep encounter shapes problem with these dataset, we modify the dataset. The new one is scholarship_features_f (consists of 12000 rows and five features)
+
+Therefore, the model can't predict properly.
+
+We try to separate the neural network for both user and scholarship and use the outputs for final neural network on second attempt But, we encounter errors again.
+
+================================
+
+SUMMARY
+
+Why we failed:
+- Shapes problem
+- Might misunderstand how the algorithm works
+
+Our efforts:
+- Modify the dataset (suspected being one of the problems too)
+- Try to separate the neural networks
+- Ask and finding solutions on several online forums (deeplearning.AI community, discords server, Stack Overflow, etc)
+- Searching tutorials on YouTube (but we don't find what we really needed from the videos we watched)
+
